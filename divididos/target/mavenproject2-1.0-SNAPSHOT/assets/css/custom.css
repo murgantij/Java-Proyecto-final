@@ -1,0 +1,40 @@
+@font-face {
+    font-family: rockFont;
+    src: url(../fonts/RockSalt-Regular.ttf);
+}
+
+:root{
+    --abs-body-bg: black;
+    --bs-body-color: rgb(104, 10, 10);
+    --bs-secondary-color: rgb(150, 52, 52);
+    --bs-body-font-family:rockFont;
+    
+}
+.navbar{
+    --abs-navbar-brand-color:--bs-body-color;
+    --abs-emphasis-color-rgb:--bs-body-color;
+    --bs-navbar-brand-font-size: 1.50rem;
+    --bs-nav-link-font-size: 1.50rem;
+}
+
+.logo{
+    width: 70%;
+
+}
+.carousel-control-next-icon {
+    background-image: url('../img/carrousel/caret-right-fill.svg');
+}   
+.carousel-control-prev-icon {
+    background-image: url('../img/carrousel/caret-left-fill.svg');
+}   
+
+.separador{
+    background-image: url('../img/separador.jpg');
+    height: 20px;
+    opacity: 0.25;
+}
+
+.form{
+    background-color: rgb(232, 237, 241);
+}
+
